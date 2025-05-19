@@ -19,6 +19,7 @@ router.patch('/stock/:id', verificarToken, verificarEmpleado, async (req, res) =
 const { id } = req.params;
 const { stock } = req.body;
 
+// Actualización de stock
 try {
     const producto = await require('../models').Producto.findByPk(id);
     if (!producto) return res.status(404).json({ mensaje: 'Producto no encontrado' });

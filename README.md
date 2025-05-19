@@ -25,7 +25,6 @@ Este proyecto corresponde al **Trabajo Final Integrador** de la materia **Desarr
 - 🔒 Seguridad: encriptación de contraseñas con `bcrypt`, rutas protegidas con middlewares
 - 🧱 Relaciones claras entre usuarios y productos
 - 🧬 ORM con Sequelize
-- 📐 Diagrama de clases incluido (si aplica en el repo)
 
 ---
 

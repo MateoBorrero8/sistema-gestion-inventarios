@@ -8,7 +8,7 @@ const { verificarToken } = require('../middleware/authMiddleware');
 router.post('/register', register);
 router.post('/login', login);
 
-// Ruta protegida de prueba (opcional)
+// Ruta protegida
 router.get('/perfil', verificarToken, (req, res) => {
 res.json({
     mensaje: 'Acceso autorizado',

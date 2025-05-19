@@ -27,6 +27,7 @@ try {
 }
 };
 
+// Listado de Productos
 const obtenerProductos = async (req, res) => {
 try {
     const productos = await Producto.findAll();
@@ -37,6 +38,7 @@ try {
 }
 };
 
+// Actualización de Productos
 const actualizarProducto = async (req, res) => {
 const { id } = req.params;
 const { nombre, descripcion, precio, stock } = req.body;
@@ -65,6 +67,7 @@ try {
 }
 };
 
+// Eliminar Producto
 const eliminarProducto = async (req, res) => {
 const { id } = req.params;
 

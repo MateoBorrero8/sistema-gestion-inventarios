@@ -17,6 +17,7 @@ try {
 }
 };
 
+// Verificamos si es admin o no
 const verificarAdmin = (req, res, next) => {
 if (req.usuario.rol !== 'admin') {
     return res.status(403).json({ mensaje: 'Acceso restringido solo para administradores' });
@@ -24,6 +25,7 @@ if (req.usuario.rol !== 'admin') {
 next();
 };
 
+// Verificamos si es empleado o no
 const verificarEmpleado = (req, res, next) => {
 const rol = req.usuario.rol;
 if (rol !== 'empleado') {

@@ -34,6 +34,7 @@ const handleSubmit = async e => {
     }
 };
 
+// Si el que ingresa no es admin, se le muestra este mensaje para las funciones a las que no puede acceder
 if (rol !== 'admin') {
     return <p>⛔ Acceso restringido: solo administradores pueden ver esta página.</p>;
 }

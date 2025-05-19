@@ -35,7 +35,7 @@ try {
     }
     });
 
-    // Actualizar el estado local de productos si estás usando useState
+    // Actualizar el estado local de productos
     setProductos(prev => prev.filter(p => p.id !== id));
 } catch (error) {
     alert('Error al eliminar producto');

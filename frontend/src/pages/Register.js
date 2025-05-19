@@ -11,7 +11,7 @@ const handleSubmit = async e => {
     try {
     await api.post('/auth/register', { nombre, email, password });
     alert('Registro exitoso. Ahora iniciá sesión.');
-      onRegister(); // redirigir o cambiar vista
+      onRegister(); // redirigir vista
     } catch (error) {
     alert('Error al registrar');
     }

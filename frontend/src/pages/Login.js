@@ -11,7 +11,7 @@ const handleSubmit = async e => {
     const res = await api.post('/auth/login', { email, password });
     const token = res.data.token;
     localStorage.setItem('token', token);
-      onLogin(token); // avisamos al padre
+    onLogin(token); 
     } catch (error) {
     alert('Login fallido');
     }

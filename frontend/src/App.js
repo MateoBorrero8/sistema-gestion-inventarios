@@ -7,8 +7,6 @@ import { obtenerRolDesdeToken } from './utils/auth';
 import NuevoProducto from './pages/NuevoProducto';
 import EditarProducto from './pages/EditarProducto';
 
-
-
 function App() {
   const [token, setToken] = useState(localStorage.getItem('token'));
   const [mostrarRegistro, setMostrarRegistro] = useState(false);
