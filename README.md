@@ -1,7 +1,7 @@
 
 # 📦 Sistema de Gestión de Inventario para Comercios Locales
 
-Este proyecto corresponde al **Trabajo Final Integrador** de la materia **Desarrollo de Aplicaciones Web**. Consiste en una aplicación web completa, con autenticación de usuarios y gestión de productos, destinada a negocios que desean administrar su inventario de forma sencilla y segura.
+Este proyecto corresponde al **Trabajo Final Integrador** de la materia **Programación 3**. Consiste en una aplicación web completa, con autenticación de usuarios y gestión de productos, destinada a negocios que desean administrar su inventario de forma sencilla y segura.
 
 ---
 
